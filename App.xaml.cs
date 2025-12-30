@@ -8,7 +8,7 @@ namespace NetSpeedMonitor
     /// The startup window is configured in <c>App.xaml</c> via <c>StartupUri</c>.
     /// This class remains intentionally minimal.
     /// </summary>
-    public partial class App : Application
+    public partial class App : System.Windows.Application
     {
     }
 }

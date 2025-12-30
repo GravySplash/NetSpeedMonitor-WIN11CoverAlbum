@@ -50,6 +50,20 @@ Example single-file publish:
 dotnet publish -c Release -r win-x64 --self-contained true /p:PublishSingleFile=true
 ```
 
+## Automated releases (GitHub Actions)
+
+This repo includes a workflow that builds a `win-x64` single-file release and uploads a `.zip` to GitHub Releases.
+
+1. Create a tag (example):
+
+```powershell
+git tag v1.0.0
+git push origin v1.0.0
+```
+
+2. Wait for the workflow to finish (Actions tab).
+3. Download the `.zip` from the GitHub Release created for that tag.
+
 If you want to distribute via GitHub Releases, add:
 - versioning policy
 - changelog

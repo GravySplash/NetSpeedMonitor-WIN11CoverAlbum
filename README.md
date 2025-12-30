@@ -91,4 +91,4 @@ Add screenshots/GIFs here to show:
 
 ## License
 
-No license file is included yet. If you intend this to be reused publicly, add a `LICENSE` file (MIT is common for small utilities).
+MIT. See `LICENSE`.
